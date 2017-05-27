@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Game</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- Includes jquery framework which is needed for bootstrap js framework -->
+	<script src="https://code.jquery.com/jquery-3.2.1.js"
+   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+	<!-- Includes the Bootstrap JS framework -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+
+<h1>The Great <br><span id="randomColor">RHB</span> <br> Color Game</h1>
+<div class="stripe">
+	<button id="reset">New Colors</button>
+	<span id="message"></span>
+	<button class ="selected">Easy</button>
+	<button class ="selected">Medium</button>
+	<button class ="selected">Hard</button>
+</div>
+	<div class="container">
+
+
+	<div class="row">
+		<div height ="175px" class ="square col-md-3 col-sm-3 col-xs-3"></div>
+		<div class ="col-md-3 col-sm-3 col-xs-3 square"></div>
+		<div class ="col-md-3 col-sm-3 col-xs-3 square"></div>
+	</div>
+		
+
+	<div class="row">
+		<div class ="col-md-3 col-sm-3 col-xs-3 square"></div>
+		<div class ="col-md-3 col-sm-3 col-xs-3 square"></div>
+		<div class ="col-md-3 col-sm-3 col-xs-3 square"></div>
+	</div>
+
+	<div class="row">
+		<div class ="col-md-3 col-sm-3 col-xs-3 square"></div>
+		<div class ="col-md-3 col-sm-3 col-xs-3 square"></div>
+		<div class ="col-md-3 col-sm-3 col-xs-3 square"></div>
+	</div>
+
+
+
+
+
+	</div>
+	<script type="text/javascript" src="game.js"></script>
+
+
+</body>
+</html>
